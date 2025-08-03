@@ -12,13 +12,13 @@ Our work has been published and under review in the following:
 # Code Repository
 The code repository of this project has been organised by 4 folders and the descriptions of each folder is in the follwoing:
 - **dataset:** Contains the original zipped dataset folders obtained from THUIR-KDD'19 and QRef. Also contains the cleaned dataframe with additional calculated metrics such as CTR, Task Dwell Time, Query Dwell Time, URL Dwell Time, Avg. Dwell Time, Query Position, Rank etc.
-- **prompting:** Contains two .ipynb notebooks for our baseline (DNA+CoT) and session (DNA+CoT+Personalization) prompts for both THUIR-KDD'19 and QRef datasets. Also contains the baseline and session formatted dataset (.json) required for our experiments. If you use the datasets for your research kindly cite our paper **'LLM-Driven Usefulness Labeling for IR Evaluation'**:https://arxiv.org/abs/2503.08965 (accepted at SIGIR 2025 Padova, Italy).
+- **prompting:** Contains two .ipynb notebooks for our baseline (DNA+CoT) and session (DNA+CoT+Personalization) prompts for both [THUIR-KDD'19](http://www.thuir.cn/KDD19-UserStudyDataset/) and [QRef](http://www.thuir.cn/tiangong-qref/) datasets. Also contains the baseline and session formatted dataset (.json) required for our experiments. If you use the datasets for your research kindly cite our paper **'LLM-Driven Usefulness Labeling for IR Evaluation'**:https://arxiv.org/abs/2503.08965 (accepted at SIGIR 2025 Padova, Italy).
 - **finetuning:** Contains the core finetuning file along with the training files. Details of the finetuned models and dataset has been provided in the next section.
 - **results:** Contains the LLM-generated usefulness labels from all five models (GPT 3.5turbo, GPT 4omini, Llama 3.3 70B, Llama 3.1 8B and Llama 3.2 3B) for both datasets generated via prompting (baseline and session).
 
 # Finetuning for Usefulness Labels
 
-This finetuned model code repo has been created as part of an experiment for finetuning LLMs on user search behavior signals to predict usefulness labels. The finetuning has been conducted on the dataset THUIR KDD'19 and Qref and the details of the project can be found in our paper **LLM-Driven Usefulness Judgment for Web Search Evaluation**: https://arxiv.org/pdf/2504.14401.
+This finetuned model code repo has been created as part of an experiment for finetuning LLMs on user search behavior signals to predict usefulness labels. The finetuning has been conducted on the dataset THUIR KDD'19 and QRef and the details of the project can be found in our paper **LLM-Driven Usefulness Judgment for Web Search Evaluation**: https://arxiv.org/pdf/2504.14401.
 
 - **Developed by:** Mouly Dewan (University of Washington)
 - **Shared by:** Mouly Dewan
