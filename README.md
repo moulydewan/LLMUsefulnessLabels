@@ -22,6 +22,6 @@ This finetuned model code repo has been created as part of an experiment for fin
 - **Shared by:** Mouly Dewan
 - **Finetuned model type:** Llama
 - **Finetuned from model:** Meta-Llama-3.1-8B-Instruct
-- **Finetuned Dataset:** [Finetuned_THUIR_Dataset](https://huggingface.co/datasets/moulydewan/THUIR_finetune_dataset)
-- **Finetuned Model:** [Finetuned_THUIR_Model](https://huggingface.co/moulydewan/Llama-3.1-8B-Instruct-Finetuned-THUIR)
+- **Huggingface Finetuned Dataset:** [Finetuned_THUIR_Dataset](https://huggingface.co/datasets/moulydewan/THUIR_finetune_dataset)
+- **Huggingface Finetuned Model:** [Finetuned_THUIR_Model](https://huggingface.co/moulydewan/Llama-3.1-8B-Instruct-Finetuned-THUIR)
 
