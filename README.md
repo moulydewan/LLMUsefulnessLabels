@@ -20,10 +20,3 @@ The code repository of this project has been organised by 4 folders and the desc
 
 This finetuned model code repo has been created as part of an experiment for finetuning LLMs on user search behavior signals to predict usefulness labels. The finetuning has been conducted on the dataset THUIR KDD'19 and QRef and the details of the project can be found in our paper **LLM-Driven Usefulness Judgment for Web Search Evaluation**: https://arxiv.org/pdf/2504.14401.
 
-- **Developed by:** Mouly Dewan (University of Washington)
-- **Shared by:** Mouly Dewan
-- **Finetuned model type:** Llama
-- **Finetuned from model:** Meta-Llama-3.1-8B-Instruct
-- **Huggingface Finetuned Dataset:** [Finetuned_THUIR_Dataset](https://huggingface.co/datasets/moulydewan/THUIR_finetune_dataset), [Finetuned_QRef_Dataset](https://huggingface.co/datasets/moulydewan/QREF_finetune_dataset)
-- **Huggingface Finetuned Model:** [Finetuned_THUIR_Model](https://huggingface.co/moulydewan/Llama-3.1-8B-Instruct-Finetuned-THUIR), [Finetuned_QRef_Model](https://huggingface.co/moulydewan/Llama-3.1-8B-Instruct-Finetuned-THUIR)
-
