@@ -13,5 +13,5 @@ The code repository of this project has been organised by 4 folders and the desc
 
 # Finetuning for Usefulness Labels
 
-This finetuned model code repo has been created as part of an experiment for finetuning LLMs on user search behavior signals to predict usefulness labels. The finetuning has been conducted on the dataset THUIR KDD'19 and QRef and the details of the project can be found in our paper **LLM-Driven Usefulness Judgment for Web Search Evaluation**: https://arxiv.org/pdf/2504.14401.
+This finetuned model code repo has been created as part of an experiment for finetuning LLMs on user search behavior signals to predict usefulness labels. The finetuning has been conducted on the dataset THUIR KDD'19 and QRef.
 
